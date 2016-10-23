@@ -1,0 +1,38 @@
+{
+  "name": "smartcarpool",
+  "version": "1.0.0",
+  "description": "TechM official car pooling app for employee",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpkm/hackathon.git"
+  },
+  "keywords": [
+    "Smart",
+    "Car",
+    "Pool",
+    "car",
+    "pooling",
+    "hackathon"
+  ],
+  "author": "Prem Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webpkm/hackathon/issues"
+  },
+  "homepage": "https://github.com/webpkm/hackathon#readme"
+}
