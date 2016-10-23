@@ -17,8 +17,8 @@ This requires cordova 5.0+
 
 ### Add cordova platforms
 
-        $ cordova platform add android
-        $ cordova platform add browser
+     $ cordova platform add android
+     $ cordova platform add browser
 
 
 ### Dependecy Installation
