@@ -51,3 +51,14 @@ This requires cordova 5.0+
     $ npm install grunt-contrib-jshint --save-dev
     $ npm install grunt-contrib-sass --save-dev
     $ npm install grunt-contrib-concat --save-dev
+
+## Eclipse Setup
+First download the Eclipse software
+http://archive.eclipse.org/technology/epp/downloads/release/luna/R/eclipse-java-luna-R-win32.zip
+
+### Android SDK setup 
+Help -> Install New Software
+Add this link to install
+https://dl-ssl.google.com/android/eclipse/
+
+
