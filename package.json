@@ -1,7 +1,7 @@
 {
-  "name": "smartcarpool",
+  "name": "cordova-grunt-integration",
   "version": "1.0.0",
-  "description": "TechM official car pooling app for employee",
+  "description": "cordova-grunt-integration",
   "main": "index.js",
   "dependencies": {
     "grunt": "^1.0.1",
