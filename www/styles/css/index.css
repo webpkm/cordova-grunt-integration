@@ -1,0 +1,33 @@
+/* Common.scss */
+.btn {
+  color: #ccc;
+}
+
+input {
+  color: #ccc;
+  border: 2px solid #eee;
+}
+
+/* setting.scss */
+.setting {
+  color: #aaa;
+}
+
+/* login.scss */
+.login {
+  color: #FFF;
+  background-color: #888;
+  font-size: 18px;
+}
+
+/* signup.scss */
+.signup {
+  color: #ccc;
+}
+
+.signup {
+  color: #ccc;
+  border: 2px solid #eee;
+}
+
+/*# sourceMappingURL=index.css.map */
