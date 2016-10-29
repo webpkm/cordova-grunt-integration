@@ -65,3 +65,22 @@ https://dl-ssl.google.com/android/eclipse/
 ### Download ANDROID SDK
 
 https://developer.android.com/studio/index.html#downloads
+
+### Enable Developer Options
+1. Go to about phone
+2. 5 times tap on it.
+3. It will enable the Developer options
+http://blog.syncios.com/enable-developer-optionsusb-debugging-mode-on-devices-with-android-4-2-jelly-bean/
+
+
+
+### Enable USB Debugging
+
+
+
+First download the USB driver for Nexus download from here
+https://developer.android.com/studio/run/win-usb.html#top
+
+Follow these steps to install the driver
+https://developer.android.com/studio/run/oem-usb.html#InstallingDriver
+
