@@ -1,4 +1,4 @@
-/*! smartcarpool - v1.0.0 - 2016-10-23 */var app = {
+/*! smartcarpool - v1.0.0 - 2016-10-29 */var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -14,17 +14,72 @@
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
+    
+    emailGuests: function() {
+    	console.log("You clicked on email guest!");
+    },
+    
+    snooze: function() {
+    	console.log("You clicked on snooze!");
+    },
+
+    accept: function() {
+    	console.log("You clicked on accept!");
+    },
+
+    reject: function() {
+    	console.log("You clicked on reject!");
+    },
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        
+        document.getElementById("ShareApp").addEventListener("click", function() {
+        	window.plugins.socialsharing.share('Click on the below link to download the SmartCarPool App: ', null, null, 'https://goo.gl/4weRCY');
+
+        });
+        
+        var push = PushNotification.init({
+            android: {
+                senderID: "800359287342",
+                iconColor: "#0091EA",
+            },
+            browser: {
+                pushServiceURL: 'http://push.api.phonegap.com/v1/push'
+            },
+            ios: {
+                alert: "true",
+                badge: true,
+                sound: 'false'
+            },
+            windows: {}
+        });
+        
+        push.on('registration', function(data) {
+            console.log(data.registrationId);
+        });
+        
+        push.on('notification', function(data) {
+            console.log(data.message);
+            console.log(data.title);
+            console.log(data.count);
+            console.log(data.sound);
+            console.log(data.image);
+            console.log(data.additionalData);
+        });
+        push.on('error', function(e) {
+            console.log("Error:: ", e.message);
+        });
+        
+        
+//        PushNotification.hasPermission(function(data) {
+//            if (data.isEnabled) {
+//                alert('isEnabled');
+//            }
+//        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        
 
         console.log('Received Event: ' + id);
     }

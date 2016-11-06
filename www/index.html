@@ -33,16 +33,43 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="styles/css/index.css">
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.css">
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+			<a class="btn btn-lg btn-link" style="color: #FFF; padding-top: 12px;">
+				<span class="glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+			</a>
+			<div class="navbar-brand" href="#" style="color: #FFF;display: inline-block; padding-left: 0; float: none;">
+				Login
+			</div>
+			<a class="btn btn-lg btn-link pull-right" style="color: #FFF; padding-top: 12px;">
+				<span class="glyphicon glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+			</a>
+		</nav>
+ 	<div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
         </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        
+        <br><br>
+        <button type="button" class="btn btn-lg btn-success btn-block" id="ShareApp" type="submit"><span class="glyphicon glyphicon-share-alt"></span> Share Application</button>
+        
+      </form>
+
+    </div> <!-- /container -->
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="libs/angularjs/angular.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

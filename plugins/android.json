@@ -9,6 +9,21 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.techm.smartcarpool"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.techm.smartcarpool"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.techm.smartcarpool"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.techm.smartcarpool"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.techm.smartcarpool"
+        },
+        "cordova-plugin-socialsharing": {
+            "PACKAGE_NAME": "com.techm.smartcarpool"
         }
     },
     "dependent_plugins": {}

@@ -1,0 +1,40 @@
+$cordova create SmartCarPool com.techm.smartcarpool SmartCarPool
+
+
+$cordova platform add android
+$cordova platform add browser
+
+To install grunt-cli
+
+$npm install -g grunt-cli
+$npm install grunt --save-dev
+$npm init
+
+$npm install grunt-contrib-watch --save-dev
+$npm install grunt-contrib-uglify --save-dev
+$npm install grunt-contrib-jshint --save-dev
+$npm install grunt-contrib-sass --save-dev
+$npm install grunt-contrib-concat --save-dev
+
+$gem install rails --source http://rubygems.org
+$gem install gem --source http://rubygems.org
+
+
+$cordova plugin add .\getPlugins\phonegap-plugin-push-master
+
+Make sure that you added these 3 lib
+
+
+Android Support Repository Version 39
+Google play service version 37
+Google Repository version 38
+
+
+To update Cordova 
+$npm instll -g cordova@6.4.0
+
+To update android
+cordova platform update android@6.0.0
+
+$cordova plugin add phonegap-plugin-push@1.8.2 --variable SENDER_ID="800359287342"
+
