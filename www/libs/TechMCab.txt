@@ -1,0 +1,61 @@
+Need to do POC on these things:
+1. Enable/Disabled GPS (Navigator) (Enable click will take use to android location so that user can on/off)
+2. Google Address search
+3. How to show native small message.
+4. Please wait page
+
+
+AIzaSyClEV6wpvFELXhJ4UsyZ4AN-TAB00m-P-c
+
+
+
+
+CAR to Car communication
+Something suppose 4 people in car can play that game
+
+
+
+
+
+
+cordova plugin add E:\Project\BusinessEasy\prem\cordova-plugin-googlemaps-master\cordova-plugin-googlemaps-master --variable API_KEY_FOR_ANDROID="AIzaSyClEV6wpvFELXhJ4UsyZ4AN-TAB00m-P-c"
+
+
+
+$apiKey = "AIzaSyAQhR0nK3CJuIeGOTWGh9YpF1NIvKbPeKE";
+
+https://github.com/mapsplugin/cordova-plugin-googlemaps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################## TechM CAB ##############################
+
+Purpose
+* To help to go green
+* Avoid trafic
+* Save Time
+* Save money
+* Less Pollutions
+
+Cordova Permission
+	1. Location Access (How to open on/off location in android)
+	2. 
+	
+		
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQhR0nK3CJuIeGOTWGh9YpF1NIvKbPeKE&callback=initMap"
+    async defer></script>
+	
+	AIzaSyA8Sh95mMzVGEfa5TPQoc5ZB9wadl5cSno -new 
+	AIzaSyAQhR0nK3CJuIeGOTWGh9YpF1NIvKbPeKE - old

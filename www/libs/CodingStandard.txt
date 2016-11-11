@@ -1,0 +1,9 @@
+#####################Coding Standard###################
+HTML
+http://www.w3schools.com/html/html5_syntax.asp
+http://learn.shayhowe.com/html-css/writing-your-best-code/
+
+CSS 
+http://learn.shayhowe.com/html-css/writing-your-best-code/#css-coding-practices
+https://hackhands.com/70-Expert-Ideas-For-Better-CSS-Coding/
+

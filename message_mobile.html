@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Test - Mobile App</title>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="format-detection" content="telephone=no">	
+	<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/media.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style-techm.css"/>
+
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/libs/angular/angular.js"></script>
+    <script src="../js/libs/angular/angular-route.js"></script>
+    <script src="../js/message.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/spin.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="../js/xml2json.js"></script>
+    <script src="../js/moment.js"></script>
+
+</head>
+
+<body id='message-page' ng-controller='MainCtrl' ng-cloak class="ng-cloak">
+	<!-- Start Header -->
+	<div class="wrapper innerPage">
+		<header>
+			<article class="midWrap">
+				<div class="headWrap">
+					<div class="pageInfo">
+						<span class="back"></span>
+						<h1>{{header_title}}</h1>
+					</div>
+					<ul>
+						<li><a hrf="javascript:;" class="menu"><span></span></a></li>
+					</ul>
+				</div>
+			</article>
+		</header>
+		<!-- End Header -->
+		<span style="border: 1px; border-color: #000000"> </span>
+
+		<!-- Start Middle Container-->
+		<div class="sectionWrapper" ng-view style="padding: 0"></div>
+		
+		<ul class="menu">
+		    <li><a href="#/message">view1</a></li>
+		    <li><a href="#/messageList">view2</a></li>
+		  </ul>
+		<!-- End Middle Container-->
+	</div>
+</body>
+<div class="debugger"></div>
+<script src="../js/app-urls.js"></script>
+<script src="../js/AppData.js"></script>
+<script src="../js/js-scroll.js"></script>
+
+<script>
+    var appData = new AppData('mobile');
+</script>
+</html>

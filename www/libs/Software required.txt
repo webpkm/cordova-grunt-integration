@@ -1,0 +1,22 @@
+Team 
+	1. Mohsin (Team Lead)
+	2. Prem  
+	3. Richa
+	4. Suresh
+	5. Anusha
+	6. Shiva
+	
+	
+Required Software
+	1. Java (https://www.java.com/en/download/)
+	2. Eclipse
+	3. Notepad ++ (https://notepad-plus-plus.org/repository/7.x/7.1/npp.7.1.Installer.x64.exe)
+	4. ADT
+	5. Android SDK
+	6. Tortoise SVN (https://tortoisesvn.net/downloads.html)
+	7. Node JS (https://nodejs.org/dist/v4.6.1/node-v4.6.1-x64.msi)
+	8. Cordova Install globally
+	9. Ruby (http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1.exe)
+	10. Bracket editor (https://github.com/adobe/brackets/releases/download/release-1.7/Brackets.Release.1.7.msi)
+		
+		
