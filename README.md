@@ -66,6 +66,9 @@ https://dl-ssl.google.com/android/eclipse/
 
 https://developer.android.com/studio/index.html#downloads
 
+#### Direct download link
+https://dl.google.com/android/android-sdk_r24.4.1-windows.zip?hl=zh-cn
+
 ### Enable Developer Options
 1. Go to about phone
 2. 5 times tap on it.
@@ -84,3 +87,6 @@ https://developer.android.com/studio/run/win-usb.html#top
 Follow these steps to install the driver
 https://developer.android.com/studio/run/oem-usb.html#InstallingDriver
 
+#### For Moto G phone
+Download USB drive from here.
+https://motorola-global-portal.custhelp.com/app/answers/detail/a_id/88481
