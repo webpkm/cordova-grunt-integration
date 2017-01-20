@@ -90,3 +90,15 @@ https://developer.android.com/studio/run/oem-usb.html#InstallingDriver
 #### For Moto G phone
 Download USB drive from here.
 https://motorola-global-portal.custhelp.com/app/answers/detail/a_id/88481
+
+
+
+### HTML, CSS and JS Code formating
+#### Download Bracket Editor
+http://brackets.io/
+
+#### Bracket Plugin
+Download this addons and drag drop to Bracket Editor addons.
+
+https://github.com/brackets-beautify/brackets-beautify
+
