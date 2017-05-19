@@ -22,6 +22,10 @@ This requires cordova 5.0+
 ### Install cordova
     $ sudo npm install -g cordova
 
+### Add Cordova path in your Environment Variables.
+     Path variabel add one more entry there %APPDATA%\npm
+
+
 ### Create new cordova project
 
       $cordova create cordova-grunt-integration com.example.cordova-grunt-integration cordova-grunt-integration
